@@ -1,2 +1,0 @@
-# esgL
-esoftgreat with Laravel
