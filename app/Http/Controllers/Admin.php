@@ -13,7 +13,6 @@ class Admin extends Controller
      */
     public function index()
     {
-        //
         return view('admin/index');
     }
 
@@ -81,5 +80,11 @@ class Admin extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    public function content_list()
+    {
+        return view('admin/content/list',['mod'=>'content/list']);
     }
 }

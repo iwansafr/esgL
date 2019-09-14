@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('/admin', 'Admin@index');
 Route::get('/admin/content', 'Admin@index');
+Route::get('/admin/content/list', 'Admin@content_list');
 Route::get('/content', 'Content@index');
